@@ -64,6 +64,7 @@ body {
     display: flex;
     align-items: center; /* Vertikal markazga */
     justify-content: center; /* Gorizontal markazga */
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.204);
 }
 
 .jasur_coder_logo img {
@@ -269,7 +270,7 @@ body {
 .about_me_bottom {
     display: grid;
     width: 1100px;
-    height: 700px;
+    height: 740px;
     gap: 30px;
     grid-template-columns: repeat(2, 1fr);
     margin-top: 180px;
@@ -278,13 +279,14 @@ body {
 .about_me_bottom div {
     background-color: white;
     border-radius: 10px;
-    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
 }
 .about_me_bottom .education h2{
     margin-top: -90px;
 }
 .about_me_bottom .experience h2{
     margin-top: -90px;
+
 }
 
 .vertical-line {
@@ -295,3 +297,109 @@ body {
     margin: 0 25px;
     margin-top: 100px;
   }
+
+  .vertical-line2 {
+    width: 2px;
+    height: 628px; /* balandlikni keraklicha o‘zgartirasan */
+    background-color: crimson;
+    border: none;
+    margin: 0 25px;
+    margin-top: 100px;
+  }
+
+
+.about_me_bottom .education svg{
+    width: 15px;
+    position: relative;
+    margin-left: 53px;
+    top: -625px;
+}
+.about_me_bottom .experience svg{
+    width: 15px;
+    position: relative;
+    margin-left: 53px;
+    top: -625px;
+}
+.date{
+    font-size:14px;
+    color:rgb(95, 94, 94);
+    margin-left: 75px;
+    margin-top: -645px;
+}
+.education h4{
+    margin-left: 50px;
+}
+.school__description{
+    font-size: 18px;
+    margin-left: 50px;
+    color:rgb(121, 121, 121);
+    line-height: 24px;
+}
+.smm__description{
+    font-size: 18px;
+    margin-left: 50px;
+    color:rgb(121, 121, 121);
+    line-height: 24px;
+    width: 460px;
+}
+.smm_description{
+    position: absolute;
+    margin-top: 670px;
+}
+.student_it__park{
+    font-size: 18px;
+    margin-left: 50px;
+    color:rgb(121, 121, 121);
+    line-height: 24px;
+    width: 460px;
+}
+.student_it_park{
+    position: absolute;
+    margin-top: 870px;
+}
+.dot1{
+    width: 15px;
+    height: 15px;
+    background-color: crimson;
+    margin-left:18px;
+    border-radius: 50%;
+    margin-top: -680px;
+    position: relative;
+}
+.dot2{
+    width: 15px;
+    height: 15px;
+    background-color: crimson;
+    margin-left:18px;
+    border-radius: 50%;
+    margin-top: 250px;
+    position: relative;
+}
+.dot3{
+    width: 15px;
+    height: 15px;
+    background-color: crimson;
+    margin-left:18px;
+    border-radius: 50%;
+    margin-top: 180px;
+    position: relative;
+}
+
+.html_css_developer h4 {
+   
+    margin-left: 50px;
+}
+.javascript_developer h4 {
+    margin-left: 50px;
+}
+.javascript_developer{
+    margin-top: 650px;
+    position: absolute;
+}
+.react_developer h4 {
+    margin-left: 50px;
+}
+.react_developer{
+    margin-top: 900px;
+    position: absolute;
+}
