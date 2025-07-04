@@ -1,0 +1,297 @@
+body {
+    background-color: #dfd5d5;
+}
+.nav {
+    width: 270px;
+    height: 900px;
+    background-color: white;
+    margin-left: -7px;
+    margin-top: -7px;
+    position: fixed;
+}
+.nav h1 {
+    margin-left: 40px;
+    margin-top: 100px;
+    font-family: "Rubik", sans-serif;
+}
+.nav h1 a {
+    text-decoration: none;
+    color: red;
+    cursor: pointer;
+}
+.nav ul {
+    font-family: "Rubik", sans-serif;
+    margin-top: 140px;
+    list-style: none;
+    cursor: pointer;
+}
+
+.nav ul li svg {
+    width: 18px;
+}
+
+.nav h3 {
+    display: flex;
+    align-items: center;
+    gap: 5px; /* ORA OCHILADI */
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.nav h3 svg {
+    width: 18px;
+    height: 18px;
+    vertical-align: middle;
+}
+
+.nav p {
+    margin-left: 38px;
+    margin-top: 50px;
+    color: rgba(0, 0, 0, 0.536);
+    font-family: "Rubik", sans-serif;
+    font-size: small;
+}
+
+/*jasur-coder_logo*/
+.jasur_coder_logo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: 800px;
+    margin-top: 230px;
+    position: absolute;
+    display: flex;
+    align-items: center; /* Vertikal markazga */
+    justify-content: center; /* Gorizontal markazga */
+}
+
+.jasur_coder_logo img {
+    width: 190px;
+    height: 190px;
+}
+
+.jasur_coder_logo_bottom div {
+    width: 35px;
+    margin-left: 300px;
+    height: 35px;
+    background-color: crimson;
+    border-radius: 50%;
+}
+.jasur_coder_logo_bottom {
+    display: grid;
+    grid-template-columns: repeat(5, 60px);
+    column-gap: -1px;
+    margin-left: 472px;
+    margin-top: 550px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.jasur_coder_logo_bottom div {
+    display: flex;
+    align-items: center; /* Vertikal markazga */
+    justify-content: center; /* Gorizontal markazga */
+}
+.jasur_coder_logo_bottom svg {
+    width: 20px;
+    height: 20px;
+    fill: white; /* Ixtiyoriy: oq rangda chiqishi uchun */
+}
+
+.description p {
+    margin-top: -10px;
+    font-size: 17px;
+}
+.description {
+    position: absolute;
+    margin-left: 810px;
+    margin-top: 440px;
+    font-family: "Rubik", sans-serif;
+}
+
+/*About_me*/
+.about_me{
+    width: 1150px;
+    height: 1700px;
+    margin-left: 320px;
+    margin-top: 800px;
+    position: absolute;
+    font-family: "Rubik", sans-serif;
+    font-size: 20px;
+}
+.hr1{
+    width: 52px;
+    border: 2.3px solid crimson;
+    position: relative;
+    left: -548px;
+    margin-top: -18px;
+}
+.hr2{
+    width: 32px;
+    border: 2.3px solid crimson;
+    position: relative;
+    left: -558px;
+    margin-top: -7px;
+}
+.about_me h2 b{
+    font-weight: 550;
+    font-size: large;
+    color: crimson;
+}
+.about_me h2{
+    font-weight: 550;
+    font-size: x-large;
+    position: relative;
+    top: 20px;
+}
+.about_me .about_mee{
+    font-size: large;
+    color:rgba(0, 0, 0, 0.404);
+    margin-top: 45px;
+    line-height: 23px;
+}
+/*about_me_section*/
+.about_me_section{
+    width: 1150px;
+    height: 380px;
+    position: relative;
+    top: 30px;
+    line-height: 30px;
+}
+.about_me_section_p{
+    font-size: 17px;
+}
+.about_me_section_p span{
+    color:rgba(0, 0, 0, 0.404);
+}
+.about_me_section2{
+    margin-left: 310px;
+    margin-top: -398px;
+    height: 300px;
+    position: relative;
+    top: 30px;
+    line-height: 30px;
+}
+.about_me_section .download_cv{
+    padding: 15px 20px;
+    font-size: medium;
+    border-radius: 25px;
+    border: none;
+    background-color: crimson;
+    color:white;
+    margin-top: 30px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.about_me_section .download_cv:hover{
+   padding: 17px 25px;
+}
+.about_me_section .hire_me{
+    padding: 15px 22px;
+    font-size: medium;
+    border-radius: 25px;
+    border: none;
+    background-color: crimson;
+    color:white;
+    transition: all 0.3s ease;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.about_me_section .hire_me:hover{
+    padding: 17px 23px;
+ }
+
+
+/*skill*/
+
+.skills{
+    margin-left:640px;
+    margin-top: -290px;
+    line-height: 40px;
+}
+
+.skill {
+    margin-bottom: 10px;
+    width: 450px; /* kerakli o'lchamga moslashtir */
+  }
+  
+  .skill h3 {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: rgba(12, 12, 12, 0.689);
+  }
+  
+  .bar {
+    width: 100%;
+    height: 6px;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+    
+  }
+  
+  .fill {
+    height: 100%;
+    border-radius: 10px;
+    transition: width 0.5s ease-in-out;
+    
+  }
+  
+  /* Har bir texnologiya uchun alohida class */
+  .fill.html {
+    width: 86%;
+    background-color:crimson; /* HTML rang */
+    
+  }
+  
+  .fill.css {
+    width: 90%;
+    background-color: crimson; /* CSS rang */
+  }
+  .fill.bootstrap{
+    width: 90%;
+    background-color: crimson; /* CSS rang */
+  }
+  .fill.javascript{
+    width: 60%;
+    background-color: crimson; /* CSS rang */
+  }
+  .fill.react{
+    width: 90%;
+    background-color: crimson; /* CSS rang */
+  }
+  /* /skill*/
+
+  /*about_me_bottom*/
+.about_me_bottom {
+    display: grid;
+    width: 1100px;
+    height: 700px;
+    gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 180px;
+}
+
+.about_me_bottom div {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+}
+.about_me_bottom .education h2{
+    margin-top: -90px;
+}
+.about_me_bottom .experience h2{
+    margin-top: -90px;
+}
+
+.vertical-line {
+    width: 1px;
+    height: 628px; /* balandlikni keraklicha o‘zgartirasan */
+    background-color: crimson;
+    border: none;
+    margin: 0 25px;
+    margin-top: 100px;
+  }
