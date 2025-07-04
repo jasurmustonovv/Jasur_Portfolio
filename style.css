@@ -363,7 +363,7 @@ body {
     background-color: crimson;
     margin-left:18px;
     border-radius: 50%;
-    margin-top: -680px;
+    margin-top: -705px;
     position: relative;
 }
 .dot2{
@@ -384,7 +384,33 @@ body {
     margin-top: 180px;
     position: relative;
 }
-
+.dot4{
+    width: 15px;
+    height: 15px;
+    background-color: crimson;
+    margin-left:584px;
+    border-radius: 50%;
+    margin-top: -480px;
+    position: relative;
+}
+.dot5{
+    width: 15px;
+    height: 15px;
+    background-color: crimson;
+    margin-left:584px;
+    border-radius: 50%;
+    margin-top: 255px;
+    position: relative;
+}
+.dot6{
+    width: 15px;
+    height: 15px;
+    background-color: crimson;
+    margin-left:584px;
+    border-radius: 50%;
+    margin-top: 237px;
+    position: relative;
+}
 .html_css_developer h4 {
    
     margin-left: 50px;
